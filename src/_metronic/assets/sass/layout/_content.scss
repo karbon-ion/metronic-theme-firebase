@@ -4,8 +4,11 @@
 
 // Desktop mode
 @include media-breakpoint-up(lg) {
-  .app-content {
-    [data-kt-app-toolbar-enabled='true']:not([data-kt-app-toolbar-fixed='true']) & {
+  .content {
+    padding: get($content-spacing, desktop) 0;
+
+    // Toolbar enabled and toolbar fixed mode
+    .toolbar-enabled.toolbar-fixed & {
       padding-top: 0;
     }
   }
@@ -13,8 +16,11 @@
 
 // Tablet & mobile modes
 @include media-breakpoint-down(lg) {
-  .app-content {
-    [data-kt-app-toolbar-enabled='true']:not([data-kt-app-toolbar-fixed-mobile='true']) & {
+  .content {
+    padding: get($content-spacing, tablet-and-mobile) 0;
+
+    // Toolbar enabled mode and toolbar not fixed mode
+    .toolbar-enabled:not(.toolbar-tablet-and-mobile-fixed) & {
       padding-top: 0;
     }
   }

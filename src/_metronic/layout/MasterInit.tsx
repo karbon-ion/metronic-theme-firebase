@@ -1,13 +1,13 @@
 import {useEffect, useRef} from 'react'
 import {Tab} from 'bootstrap'
 import {
-  MenuComponent,
   DrawerComponent,
+  MenuComponent,
   ScrollComponent,
   ScrollTopComponent,
   StickyComponent,
-  ToggleComponent,
   SwapperComponent,
+  ToggleComponent,
 } from '../assets/ts/components'
 import {ThemeModeComponent} from '../assets/ts/layout'
 

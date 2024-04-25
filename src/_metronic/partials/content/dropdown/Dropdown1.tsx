@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
+
 export function Dropdown1() {
   return (
     <div className='menu menu-sub menu-sub-dropdown w-250px w-md-300px' data-kt-menu='true'>
@@ -63,7 +65,7 @@ export function Dropdown1() {
         <div className='d-flex justify-content-end'>
           <button
             type='reset'
-            className='btn btn-sm btn-light btn-active-light-primary me-2'
+            className='btn btn-sm btn-secondary btn-active-light-primary me-2'
             data-kt-menu-dismiss='true'
           >
             Reset

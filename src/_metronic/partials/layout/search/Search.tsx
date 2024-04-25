@@ -74,8 +74,8 @@ const Search: FC = () => {
           data-kt-search-element='toggle'
           id='kt_header_search_toggle'
         >
-          <div className='btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px'>
-            <KTIcon iconName='magnifier' className='fs-2' />
+          <div className='btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px'>
+            <KTIcon iconName='magnifier' className='fs-1' />
           </div>
         </div>
 

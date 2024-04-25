@@ -1,6 +1,6 @@
 import React from 'react'
 import icons from '../icons-config/icons'
-import {getLayoutFromLocalStorage} from '../../layout/core'
+import {getLayout} from '../../layout/core'
 
 type Props = {
   className?: string
@@ -10,7 +10,7 @@ type Props = {
 
 const KTIcon: React.FC<Props> = ({className = '', iconType, iconName}) => {
   if (!iconType) {
-    iconType = getLayoutFromLocalStorage().main?.iconType
+    iconType = getLayout().main?.iconType
   }
 
   return (

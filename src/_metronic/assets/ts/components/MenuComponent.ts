@@ -1,18 +1,18 @@
 import {createPopper, VirtualElement} from '@popperjs/core'
 import {
-  getElementChild,
-  getElementParents,
-  getAttributeValueByBreakpoint,
-  getUniqueIdWithPrefix,
   DataUtil,
+  DOMEventHandlerUtil,
   ElementStyleUtil,
   EventHandlerUtil,
-  insertAfterElement,
-  slideUp,
-  slideDown,
-  DOMEventHandlerUtil,
-  throttle,
+  getAttributeValueByBreakpoint,
+  getElementChild,
+  getElementParents,
   getHighestZindex,
+  getUniqueIdWithPrefix,
+  insertAfterElement,
+  slideDown,
+  slideUp,
+  throttle,
 } from '../_utils/index'
 
 export interface MenuOptions {
