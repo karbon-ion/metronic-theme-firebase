@@ -15,6 +15,8 @@ import './_metronic/assets/keenicons/solid/style.css'
  *
  * import './_metronic/assets/css/style.rtl.css'
  **/
+// import "bootstrap/dist/css/bootstrap.min.css";
+
 import './_metronic/assets/sass/style.scss'
 import './_metronic/assets/sass/plugins.scss'
 import './_metronic/assets/sass/style.react.scss'

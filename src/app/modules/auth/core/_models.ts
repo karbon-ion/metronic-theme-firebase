@@ -44,12 +44,12 @@ export interface UserSocialNetworksModel {
 }
 
 export interface UserModel {
-  id: number
-  username: string
-  password: string | undefined
+  id: string
+  username?: string
+  password?: string | undefined
   email: string
-  first_name: string
-  last_name: string
+  first_name?: string
+  last_name?: string
   fullname?: string
   occupation?: string
   companyName?: string
